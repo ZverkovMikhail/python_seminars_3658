@@ -6,6 +6,10 @@ __pycache__/
 
 # C extensions
 *.so
+<<<<<<< HEAD
+=======
+
+>>>>>>> init commit
 # Distribution / packaging
 .Python
 build/
@@ -126,5 +130,9 @@ venv.bak/
 dmypy.json
 
 # Pyre type checker
+<<<<<<< HEAD
 .pyre/
 tgbot_conf.json
+=======
+.pyre/
+>>>>>>> init commit
