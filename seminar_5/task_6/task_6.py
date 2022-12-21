@@ -13,7 +13,7 @@ count = 0
 with open('recept.txt', 'r', encoding='utf-8') as f:
     lines = f.readlines()
     lines.pop(0)
-    data = list(map(lambda l: l.replace('\n', ''), filter(lambda l: not 'лук' in l.lower(), lines)))
+    data = list(map(lambda l: l.replace('\n', ''), filter(lambda l: 'лук' not in l.lower(), lines)))
 
 # print(list(data))
 # print(count)
