@@ -1,5 +1,3 @@
-import view
-import models
 import menu_handler as menu
 
 
