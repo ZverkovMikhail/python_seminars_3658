@@ -1,6 +1,6 @@
-from telegram import Update, InlineKeyboardMarkup, InlineKeyboardButton, ParseMode, \
+from telegram import Update, ReplyKeyboardRemove, InlineKeyboardMarkup, InlineKeyboardButton, ParseMode, \
     ReplyKeyboardMarkup
-from telegram.ext import Updater, CommandHandler, CallbackQueryHandler, MessageHandler, Filters, \
+from telegram.ext import Updater, CommandHandler, CallbackQueryHandler, ConversationHandler, MessageHandler, Filters, \
     CallbackContext
 
 from config import get_token
